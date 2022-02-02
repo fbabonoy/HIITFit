@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Text("Welcome")
-                .tabItem { Text("Welcome") }
-            Text("Exercise 1")
-                .tabItem{Text("Exercise 1")}
-            Text("Exercise 2")
-                .tabItem{Text("Exercise 1")}
+            WelcomeView()
+            
+            ForEach(0 ..< 4) { index in
+                ExerciseView(numValue: index)
+            }
+//            ExerciseView(numValue: 1)
+//            ExerciseView(numValue: 2)
+
 
         }
         

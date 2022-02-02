@@ -48,6 +48,10 @@
 		2496D8C227AAD8C30019276B /* HIITFitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2496D8CF27AAE1890019276B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2496D8D127AAE1C20019276B /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		2496D8D827AB1AB40019276B /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		2496D8DB27AB1AB90019276B /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = squat.mp4; path = "../../../../../Documents/swiftUI/suia-materials/02-planning-a-paged-app/projects/starter/HIITFit/HIITFit/Videos/squat.mp4"; sourceTree = "<group>"; };
+		2496D8DC27AB1ABD0019276B /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		2496D8DD27AB1B300019276B /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				2496D8CF27AAE1890019276B /* WelcomeView.swift */,
 				2496D8D127AAE1C20019276B /* ExerciseView.swift */,
 				2496D8A927AAD8C30019276B /* Assets.xcassets */,
+				2496D8D727AB1AA40019276B /* Videos */,
 				2496D8AB27AAD8C30019276B /* Preview Content */,
 			);
 			path = HIITFit;
@@ -131,6 +136,17 @@
 				2496D8C227AAD8C30019276B /* HIITFitUITestsLaunchTests.swift */,
 			);
 			path = HIITFitUITests;
+			sourceTree = "<group>";
+		};
+		2496D8D727AB1AA40019276B /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				2496D8DC27AB1ABD0019276B /* step-up.mp4 */,
+				2496D8DB27AB1AB90019276B /* squat.mp4 */,
+				2496D8D827AB1AB40019276B /* burpee.mp4 */,
+				2496D8DD27AB1B300019276B /* sun-salute.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
